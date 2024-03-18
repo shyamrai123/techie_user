@@ -1,0 +1,410 @@
+.viewcompany{
+  width: 100%;
+
+  .ifollowcomp-follow{
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+
+    .ifollowcomp-text{
+      font-size: 1em;
+    }
+  }
+
+  .company-name{
+    font-size: 2em;
+    font-weight: bold;
+    color: rgb(76, 74, 74);
+  }
+
+   .viewcompany-details-outer{
+    width: 100%;
+    padding: 0.6em;
+    .viewcompany-details{
+    
+      border-radius: 10px;
+     .viewcompany-profile{
+       display: flex;
+       column-gap: 1em;
+ 
+       .random{
+         width: 3em;
+         height: 3em;
+         border: 1px solid;
+         border-radius: 50%;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+       }
+     }
+ 
+   }
+   }
+
+   .viewcompany-deatils-btn-outer{
+    width: 100%;
+    padding: 0.6em;
+    .viewcompany-deatils-btn{
+      width: 100%;
+      padding: 1.5em;
+      margin-top: 1em;
+      background-color: orange;
+      border-radius: 10px;
+      
+    .viewcompany-deatils-btn-inner{
+      display: flex;
+      justify-content: flex-start;
+      column-gap: 2em;
+    
+      .hom{
+   width: 6em;
+   height: 2em;
+   border: 1px solid ;
+   border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+     &:hover {
+      background-color: bisque;
+     }
+    }
+
+    .abt{
+      width: 6em;
+      height: 2em;
+      border: 1px solid;
+      display: flex;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      &:hover {
+        background-color: bisque;
+       }
+    }
+
+    .jobss{
+      width: 6em;
+      height: 2em;
+      border: 1px solid;
+      display: flex;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      &:hover {
+        background-color: bisque;
+       }
+    }
+
+  }
+
+  
+}
+   }
+
+.viewcompany-home{
+  width: 100%;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+ 
+
+  .viewcompany-home-inner{
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    padding: 1em 0 0 0.5em;
+  }
+}
+
+.viewcompany-about{
+  width: 100%;
+
+}
+.viewcompany-about-inner{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-bottom: 1.5em;
+  align-items:start;
+  padding: 1em 0 1em 1em;
+}
+
+.jobs-container-main {
+  width: 100%;
+  padding: 2em 0 2em 0;
+
+  .jobs-container-inner {
+    width: 100%;
+
+    .jobs-container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2em;
+      .jobs-single {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 1em;
+        border: 1px solid;
+        padding: 2em 2em 1.5rem 2em;
+        position: relative;
+        .card-1 {
+          display: flex;
+          justify-content: start;
+          align-items: start;
+          flex-direction: column;
+          .hirings {
+            .hiring-01 {
+              font-size: 0.7em;
+              padding: 0 0.2em 0 0.3em;
+            }
+          }
+          .skills {
+            display: flex;
+            flex-wrap: wrap;
+
+            .skills-text {
+              display: flex;
+              flex-wrap: wrap;
+              margin-bottom: 0.1em;
+              font-size: 0.8em;
+              width: auto;
+              height: 2em;
+              border: 1px solid rgb(240, 240, 249);
+              border-radius: 10px;
+              margin-left: 0.5em;
+              padding: 0.1em;
+              background-color: grey;
+              color: white;
+            }
+          }
+        }
+        .card-2 {
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          .view-job-link {
+            .viewjob {
+              color: black;
+              text-decoration: solid white;
+            }
+          }
+        }
+        .random {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 3.5em;
+          height: 3.5em;
+
+          border: 1px solid;
+          border-radius: 50%;
+          color: white;
+          position: absolute;
+          top: 10%;
+          right: 10%;
+        }
+      }
+    }
+  }
+}
+
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+  .viewcompany{
+    width: 100%;
+  
+    .ifollowcomp-follow{
+    width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .ifollowcomp-text{
+        font-size: 1em;
+      }
+    }
+  
+    .company-name{
+      font-size: 1.6em;
+      font-weight: bold;
+      color: rgb(76, 74, 74);
+    }
+  
+    .viewcompany-details{
+       padding: 1em;
+      .viewcompany-profile{
+        display: flex;
+        column-gap: 1em;
+  
+        .random{
+          width: 3em;
+          height: 3em;
+          border: 1px solid;
+          border-radius: 50%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+  
+    }
+  
+    .viewcompany-deatils-btn{
+        width: 100%;
+        padding: 1.5em;
+        margin-top: 1em;
+        
+      .viewcompany-deatils-btn-inner{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 2em;
+      
+        .hom{
+     width: 6em;
+     height: 2em;
+     border: 1px solid;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+        
+      }
+  
+      .abt{
+        width: 6em;
+        height: 2em;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .jobss{
+        width: 6em;
+        height: 2em;
+        border: 1px solid;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+    }
+  
+    
+  }
+  
+  .viewcompany-home{
+    width: 100%;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  
+    .viewcompany-home-inner{
+      display: flex;
+      justify-content: flex-start;
+      align-items: start;
+      padding: 1em 0 0 0.5em;
+    }
+  }
+  
+  .viewcompany-about{
+    width: 100%;
+  
+  }
+  .viewcompany-about-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 1.5em;
+    align-items:start;
+    padding: 1em 0 1em 1em;
+  }
+  .jobs-container-main {
+    width: 100%;
+    padding: 0.4em 0 1em 0;
+
+    .jobs-container-inner {
+      width: 100%;
+      padding: 1em;
+      .jobs-container {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2em;
+
+        .jobs-single {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          row-gap: 1em;
+          border: 1px solid;
+          padding: 2em 2em 1.5rem 2em;
+          position: relative;
+          .card-1 {
+            display: flex;
+            justify-content: start;
+            align-items: start;
+            flex-direction: column;
+            .hirings {
+              .hiring-01 {
+                font-size: 0.7em;
+                padding: 0 0.2em 0 0.3em;
+              }
+            }
+            .skills {
+              display: flex;
+              flex-wrap: wrap;
+
+              .skills-text {
+                display: flex;
+                flex-wrap: wrap;
+                margin-bottom: 0.1em;
+                font-size: 0.8em;
+                width: auto;
+                height: 2em;
+                border: 1px solid rgb(240, 240, 249);
+                border-radius: 10px;
+                margin-left: 0.5em;
+                padding: 0.1em;
+                background-color: grey;
+                color: white;
+              }
+            }
+          }
+          .card-2 {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            .view-job-link {
+              .viewjob {
+                color: black;
+                text-decoration: solid white;
+              }
+            }
+          }
+          .random {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 3em;
+            height: 3em;
+
+            border: 1px solid;
+            border-radius: 50%;
+            color: white;
+            position: absolute;
+            top: 10%;
+            right: 10%;
+          }
+        }
+      }
+    }
+  }
+  }
+}

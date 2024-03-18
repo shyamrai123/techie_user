@@ -1,0 +1,454 @@
+.viewjob{
+    width: 100%;
+    .viewjob-details{
+        width: 100%;
+      
+        .viewjob-details-inner{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .job-title{
+        display: flex;
+        justify-content: flex-start;
+          font-size: 1.5em;
+        div:nth-child(1){
+          font-size: 1.5em;
+          font-weight: bold;
+
+
+        }
+    }
+
+    .hirings{
+        width: 100%;
+        margin-bottom: 1em;
+        
+        .hirings-inner{
+            display: flex;
+            justify-content: space-between;
+
+
+            .hirings-opening{
+                display: flex;
+                justify-content: flex-start;
+                column-gap: 1em;
+
+                .hiring{
+                    font-size: 0.9em;
+                    padding: 0.2em 1em 0.2em 1em;
+                    border: 1px solid green;
+                }
+
+                .openings{
+                    font-size: 0.9em;
+                    padding: 0.2em 1em 0.2em 1em;
+                }
+            }
+
+            .share{
+                background-color: white; 
+                font-size: 0.9em;
+                padding: 0.2em 1em 0.2em 1em;
+                color: red;
+                border:1px solid red;
+            }
+
+        }
+    }
+
+
+   .view-jobdescription-outer{
+    width: 100%;
+   
+   
+   
+    .view-jobdescription{
+        width: 100%;
+        border-radius: 10px;
+        background-color: white;
+       
+      
+        .view-jobdescription-inner{
+            width: 100%;
+            display: flex;
+            justify-content:space-between;
+            align-items:start;
+      padding:1em; 
+            
+            .company-roles-1{
+                .labels{
+                    color: black;
+                    font-size: 1.3em;
+                }
+                .lab{
+                    color: gray;
+                }
+
+               
+            }
+
+            .company-roles-2{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content:end;
+
+                
+              .labels{
+                color: black;
+                    font-size: 1.3em;
+
+              }
+              .lab{
+                color: gray;
+            }
+
+            }
+
+            .company-roles-3{
+               display: flex;
+               flex-direction: column;
+               flex-wrap: wrap;
+               justify-content:end;
+            
+
+
+               div:nth-child(1){
+                   display: flex;
+                   flex-direction: column;
+                   justify-content: end;
+                 
+               }
+                .job-skills{
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content:flex-start;
+                    column-gap: 0.4em;
+                    
+
+                  
+                    
+                }
+
+              .labels{
+                color: black;
+                    font-size: 1.3em;
+              }
+              .lab{
+                color: gray;
+            }
+            }
+        }
+    }
+   }
+
+    .descriptions{
+        width: 100%;
+        padding:1em;
+        margin-top: 1em;
+        .descriptions-inside{
+            display: grid;
+            
+            .jodes{
+                color: gray;
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .about-comp{
+        div:nth-child(1){
+            font-size: 1.5em;
+          font-weight: bold;
+        }
+    }
+
+    .about-comp-details-outer{
+        width: 100%;
+        padding: 0.3em 0.7em 0.5em 0.7em;
+        .about-comp-details{
+            width: 100%;
+            padding: 0.4em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            background-color: white;
+            .about-comp-details-inner{
+               .profile-comp{
+                display:flex;
+                justify-content: flex-start;
+                column-gap: 2em;
+                padding: 1em;
+                .random{
+                    width: 3em;
+                    height: 3em;
+                    border-radius: 50%;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                }
+                
+                 div:nth-child(1){
+                    font-size: 1.5em;
+                    font-weight: bold;
+                 }
+                 div:nth-child(2){
+                    font-size: 1em;
+                    font-weight: bold;
+    
+                    .loc{
+                        font-size: 1em;
+                        font-weight: lighter;
+                        color: gray;
+                    }
+                    
+                 }
+                 
+    
+               }
+    
+               .abt-comp{
+                font-size: 1em;
+                font-weight: bold;
+                color: grey;
+       
+                padding: 0em 0em 0em 1.5em;
+            }
+            .abt-data{
+                padding: 0.7em 1em 1em 1.5em;
+            }
+    
+    
+            }
+    
+            .view-comp{
+                display: flex;
+                justify-content: flex-end;
+                align-items: end;
+            }
+            .vc{
+                text-decoration: solid;
+                color: black;
+            }
+        }
+    }
+
+
+    
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .viewjob{
+        width: 100%;
+       
+    
+        .viewjob-details{
+            width: 100%;
+            .viewjob-details-inner{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        }
+    
+        .job-title{
+            display: flex;
+            justify-content: flex-start;
+              font-size: 1.5em;
+            div:nth-child(1){
+              font-size: 1.2em;
+              font-weight: bold;
+    
+    
+            }
+        }
+    
+        .hirings{
+            width: 100%;
+            margin-bottom: 1em;
+            
+            .hirings-inner{
+                display: flex;
+                justify-content: space-between;
+    
+    
+                .hirings-opening{
+                    display: flex;
+                    justify-content: flex-start;
+                    column-gap: 1em;
+    
+                    .hiring{
+                        font-size: 0.7em;
+                        font-weight: bold;
+                        padding: 0.2em 1em 0.2em 1em;
+                        border: 1px solid lightgreen;
+                        color:lightgreen ;
+                    }
+    
+                    .openings{
+                        font-size: 0.7em;
+                        padding: 0.2em 1em 0.2em 1em;
+                    }
+                }
+    
+                .share{
+                    background-color: white;
+                    font-size: 0.7em;
+                    padding: 0.2em 1em 0.2em 1em;
+                    color: red;
+                    border:1px solid red;
+                }
+    
+            }
+        }
+    
+    
+    .view-jobdescription-outer{
+        width: 100%;
+        padding: 0.7em;
+        .view-jobdescription{
+            width: 100%;
+            padding:1em;
+            background-color: white;
+
+            .description{
+                width: 100%;
+                margin-top: 1em;
+                .description-inner{
+                    display: grid;
+                    .labels{
+                        color: gray;
+                        font-size: 1.5em;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .view-jobdescription-inner{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content:space-between;
+                align-items:start;             
+              
+               
+                .company-roles-1{
+                
+                    .labels{
+                        color: black;
+                        font-size: 1.1em;
+                    }
+    .lab{
+        font-size: 0.7em;
+        font-weight: bold;
+    }
+                
+                }
+                
+            .company-roles-2{
+                display: flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                justify-content:end;
+                width: 100%;
+
+                
+              .labels{
+                color: black;
+                    font-size: 1.1em;
+              }
+
+              .lab{
+                font-size: 0.7em;
+                font-weight: bold;
+            }
+            }
+    
+                .company-roles-3{
+    
+                    .job-skills{
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content:flex-start;
+                        column-gap: 0.4em;
+                        
+                        .skills{
+                            font-size: 0.7em;
+                            padding: 0.3em;
+                        }
+                    }
+
+    
+                  .labels{
+                    color: black;
+                        font-size: 1.1em;
+                  }
+                  .lab{
+                    font-size: 0.7em;
+                    font-weight: bold;
+                }
+                }
+            }
+         
+        }
+    }
+
+    
+        .about-comp{
+            div:nth-child(1){
+                font-size: 1.5em;
+              font-weight: bold;
+            }
+        }
+    
+        .about-comp-details{
+            width: 100%;
+            padding: 1em;
+            margin-bottom: 2em;
+            .about-comp-details-inner{
+    
+               .profile-comp{
+                display:flex;
+                justify-content: flex-start;
+                column-gap: 2em;
+                 div:nth-child(1){
+                    font-size: 1.2em;
+                    font-weight: bold;
+                 }
+                 div:nth-child(2){
+                    font-size: 1em;
+                    font-weight: bold;
+    
+                    .loc{
+                        font-size: 1em;
+                    }
+                    
+                 }
+    
+               }
+    
+               .abt-comp{
+                font-size: 1em;
+                font-weight: bold;
+                color: grey;
+               }
+    
+    
+            }
+    
+            .view-comp{
+                display: flex;
+                justify-content: flex-end;
+                align-items: end;
+            }
+        }
+    
+    
+        
+    }
+}
